@@ -28,6 +28,7 @@ module.exports = {
       },
       backgroundImage: {
         heroSection: 'url(./assets/images/png/hero-sec-bg-img.png)',
+        footerSection: 'url(./assets/images/png/footer-img.png)',
 
       },
       boxShadow: {

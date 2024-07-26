@@ -6,13 +6,14 @@ import whatWeDo_5 from '../assets/images/png/what-do-5.png'
 import whatWeDo_6 from '../assets/images/png/what-do-6.png'
 import whatWeDo_7 from '../assets/images/png/what-do-7.png'
 import linkArrow from '../assets/images/png/red-link-arrow.png'
+import WhatWeDoSlider from './WhatWeDoSlider';
 
 const WhatWeDo = () => {
     return (
         <section className=' py-[140px]'>
             <div className="container">
                 <h1 className=" text-center font-jakarata font-semibold  text-5xl text-black capitalize">What we do</h1>
-                <div className="row mt-8">
+                <div className="row mt-8 max-sm:hidden">
                     <div className=" lg:w-1/3 px-3 mt-6 sm:w-1/2">
                         <div className="bg-white border border-black  border-opacity-15 rounded-3xl p-6 shadow-weDo hover:border-white ease-in-out duration-300 min-h-[100%]">
                             <div className='overflow-hidden rounded-xl'>  <img src={whatWeDo_1} alt="kitchen" className='w-full rounded-xl hover:scale-105 ease-in-out duration-300' /></div>
@@ -90,6 +91,9 @@ const WhatWeDo = () => {
                             </a>
                         </div>
                     </div>
+                </div>
+                <div className=' max-sm:block hidden'>
+                    <WhatWeDoSlider />
                 </div>
             </div>
         </section>

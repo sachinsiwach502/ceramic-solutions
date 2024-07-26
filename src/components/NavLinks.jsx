@@ -43,10 +43,10 @@ const NavLinks = () => {
                         <div className='w-6 h-6'> <img src={phnCall} alt="phn call" className='w-full h-full' /></div>
                         <p className=' font-jakarata font-bold text-xlg'>(865) 621-1717</p>
                     </button>
-                    <div className='w-10 h-9 justify-between flex-col max-lg:flex hidden relative z-30 right-0' onClick={handleNavChange}>
-                        <span className={`w-full bg-black h-1 ease-in-out duration-300 ${nav ? "rotate-45 absolute top-[16px]" : ""}`}></span>
-                        <span className={`w-full bg-black h-1 ease-in-out duration-300 ${nav ? "hidden" : ""}`}></span>
-                        <span className={`w-full bg-black h-1 ease-in-out duration-300 ${nav ? "rotate-[135deg] bottom-[16px] absolute" : ""}`}></span>
+                    <div className='w-9 h-8 justify-between flex-col max-lg:flex hidden relative z-30 right-0 bg-red rounded-sm p-[6px]' onClick={handleNavChange}>
+                        <span className={`w-full bg-white h-1 ease-in-out duration-300 rounded ${nav ? "rotate-45 absolute top-4 right-0" : ""}`}></span>
+                        <span className={`w-full bg-white h-1 ease-in-out duration-300 rounded ${nav ? "hidden" : ""}`}></span>
+                        <span className={`w-full bg-white h-1 ease-in-out duration-300 rounded ${nav ? "-rotate-45 bottom-3 absolute right-0" : ""}`}></span>
                     </div>
                 </div>
             </div>
