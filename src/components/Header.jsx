@@ -11,7 +11,7 @@ const Header = () => {
             <NavLinks />
             <div className=" container flex-grow items-center justify-start flex">
                 <div className="max-w-[830px]">
-                    <h1 className=" text-white font-jakarata font-semibold text-6xl">
+                    <h1 className=" text-white font-jakarata font-semibold lg:text-6xl text-5xl">
                         Transform Your Space with Precision and Quality:
                         Get a Free Quote Today!
                     </h1>

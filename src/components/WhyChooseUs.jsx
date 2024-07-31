@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
             <div className=" container py-[100px]">
                 <div className=" row max-lg:max-w-[592px] mx-auto max-lg max-lg:flex-col-reverse">
                     <div className=" lg:w-1/2 px-3">
-                        <h1 className="font-jakarata font-semibold  text-5xl text-black capitalize">Why Choose us?</h1>
+                        <h1 className="font-jakarata font-semibold  md:text-5xl text-4xl text-black capitalize">Why Choose us?</h1>
                         <p className="font-jakarata font-normal text-black text-lg pt-5 pb-2">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. </p>
                         <div className=" flex items-start gap-5 pt-6">
                             <img src={star} alt="star" width={"62px"} height={"62px"} />

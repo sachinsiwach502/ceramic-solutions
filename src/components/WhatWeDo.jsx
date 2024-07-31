@@ -12,7 +12,7 @@ const WhatWeDo = () => {
     return (
         <section className=' py-[140px]'>
             <div className="container">
-                <h1 className=" text-center font-jakarata font-semibold  text-5xl text-black capitalize">What we do</h1>
+                <h1 className=" text-center font-jakarata font-semibold  md:text-5xl text-4xl  text-black capitalize">What we do</h1>
                 <div className="row mt-8 max-sm:hidden">
                     <div className=" lg:w-1/3 px-3 mt-6 sm:w-1/2">
                         <div className="bg-white border border-black  border-opacity-15 rounded-3xl p-6 shadow-weDo hover:border-white ease-in-out duration-300 min-h-[100%]">
