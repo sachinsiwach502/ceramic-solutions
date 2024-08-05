@@ -7,7 +7,6 @@ module.exports = {
     extend: {
       fontFamily: {
         manrope: ["Manrope", 'sans-serif'],
-        jakarata: ["Plus Jakarta Sans", 'sans-serif']
       },
       fontSize: {
         xms: ['12px', '19px'],

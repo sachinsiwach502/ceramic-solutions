@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+  font-family: "Plus Jakarta Sans",
+    'sans-serif';
+}
+
 @layer components {
   .container {
     @apply max-w-[1188px] px-6 mx-auto;
