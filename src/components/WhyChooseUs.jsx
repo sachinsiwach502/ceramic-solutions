@@ -36,9 +36,9 @@ const WhyChooseUs = () => {
                         <button className=" bg-red text-xlg max-w-[173px] w-full h-[63px] text-white rounded-[56px] font-jakarata font-bold mt-9 hover:bg-rose-400 ease-linear duration-100">Get a Quote</button>
                     </div>
                     <div className=' lg:w-1/2 px-3'>
-                        <div className=' relative'>
-                            <div className=' max-w-[496px] h-[523px] relative z-30'> <img src={whyChooseUs} alt="bed room" className='w-full h-full' /></div>
-                            <div className=' absolute max-w-[300px] h-[396px] translate-x-6 top-[40%] -left-[20%] z-20 max-lg:hidden'>
+                        <div className=' relative flex justify-end'>
+                            <div className='max-w-[469px] h-[523px] relative z-30'> <img src={whyChooseUs} alt="bed room" className='w-full h-full' /></div>
+                            <div className='absolute max-w-[300px] h-[396px] translate-x-6 top-[35%] -left-[4%] z-20 max-lg:hidden'>
                                 <img src={redBox} alt="red box" className='w-full h-full' />
                             </div>
                         </div>
