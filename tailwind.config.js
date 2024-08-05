@@ -33,7 +33,7 @@ module.exports = {
       },
       backgroundImage: {
         heroSection: 'url(./assets/images/webp/hero-sec-bg-img.webp)',
-        footerSection: 'url(./assets/images/png/footer-img.png)',
+        footerSection: 'url(./assets/images/webp/footer-img.webp)',
         getInTouch: 'url(./assets/images/webp/get-in-touch.webp)',
       },
       boxShadow: {
