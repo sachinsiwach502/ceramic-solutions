@@ -7,9 +7,9 @@ import NavLinks from './NavLinks'
 
 const Header = () => {
     return (
-        <section className=" bg-heroSection bg-no-repeat bg-center bg-cover min-h-screen flex flex-col">
+        <section className="bg-heroSection bg-no-repeat bg-center bg-cover min-h-screen flex flex-col">
             <NavLinks />
-            <div className=" container flex-grow items-center justify-start flex">
+            <div className="container flex-grow items-center justify-start flex">
                 <div className="max-w-[830px]">
                     <h1 className=" text-white font-jakarata font-semibold lg:text-6xl sm:text-5xl text-4xxl max-lg:pt-20">
                         Transform Your Space with Precision and Quality:
