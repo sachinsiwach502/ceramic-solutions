@@ -11,13 +11,13 @@ const Header = () => {
             <NavLinks />
             <div className=" container flex-grow items-center justify-start flex">
                 <div className="max-w-[830px]">
-                    <h1 className=" text-white font-jakarata font-semibold lg:text-6xl text-5xl">
+                    <h1 className=" text-white font-jakarata font-semibold lg:text-6xl sm:text-5xl text-4xxl max-lg:pt-20">
                         Transform Your Space with Precision and Quality:
                         Get a Free Quote Today!
                     </h1>
-                    <p className="pt-5 max-w-[742px] text-white font-jakarata font-normal text-lg">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade nyheter eurosamma sol: teroktig,</p>
-                    <button className=" bg-red text-xlg max-w-[173px] w-full h-[63px] text-white rounded-[56px] font-jakarata font-bold mt-[56px]">Get a Quote</button>
-                    <div className=" flex items-center gap-6 mt-16 max-md:flex-wrap">
+                    <p className="md:pt-5 pt-4 max-w-[742px] text-white font-jakarata font-normal text-lg">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade nyheter eurosamma sol: teroktig,</p>
+                    <button className=" bg-red text-xlg max-w-[173px] w-full h-[63px] text-white rounded-[56px] font-jakarata font-bold md:mt-9 mt-7 hover:bg-rose-500 ease-in-out duration-100">Get a Quote</button>
+                    <div className=" flex items-center gap-6 mt-16 max-md:flex-wrap max-lg:pb-14">
                         <div className="pr-[45px] pl-4 pt-2 pb-[6px] flex bg-white rounded-2xl items-center gap-3">
                             <div className=' w-10 h-10'>  <img src={googleIcon} alt="google icon" /></div>
                             <div className=' flex items-start flex-col'>

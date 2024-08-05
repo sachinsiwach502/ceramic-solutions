@@ -1,8 +1,14 @@
 import './App.css';
+import Faq from './components/Faq';
+import GetInTouch from './components/GetInTouch';
 import Header from './components/Header';
+import HowItWorks from './components/HowItWorks';
+import OurBlog from './components/OurBlog';
 import WhatWeDo from './components/WhatWeDo';
 import WhyChooseUs from './components/WhyChooseUs';
-// import VerticalSlider from './components/VerticalSlider';
+import Footer from './components/Footer';
+import Customers from './components/Customers';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -10,7 +16,13 @@ function App() {
       <Header />
       <WhatWeDo />
       <WhyChooseUs />
-      {/* <VerticalSlider /> */}
+      <Customers />
+      <HowItWorks />
+      <GetInTouch />
+      <OurBlog />
+      <Faq />
+      <Services />
+      <Footer />
     </>
   );
 }

@@ -1,18 +1,18 @@
-import whatWeDo_1 from '../assets/images/png/what-do-1.png'
-import whatWeDo_2 from '../assets/images/png/what-do-2.png'
-import whatWeDo_3 from '../assets/images/png/what-do-3.png'
-import whatWeDo_4 from '../assets/images/png/what-do-4.png'
-import whatWeDo_5 from '../assets/images/png/what-do-5.png'
-import whatWeDo_6 from '../assets/images/png/what-do-6.png'
-import whatWeDo_7 from '../assets/images/png/what-do-7.png'
+import whatWeDo_1 from '../assets/images/webp/what-do-1.webp'
+import whatWeDo_2 from '../assets/images/webp/what-do-2.webp'
+import whatWeDo_3 from '../assets/images/webp/what-do-3.webp'
+import whatWeDo_4 from '../assets/images/webp/what-do-4.webp'
+import whatWeDo_5 from '../assets/images/webp/what-do-5.webp'
+import whatWeDo_6 from '../assets/images/webp/what-do-6.webp'
+import whatWeDo_7 from '../assets/images/webp/what-do-7.webp'
 import linkArrow from '../assets/images/png/red-link-arrow.png'
 import WhatWeDoSlider from './WhatWeDoSlider';
 
 const WhatWeDo = () => {
     return (
-        <section className=' py-[140px]'>
+        <div className='lg:py-[140px] md:py-24 py-14'>
             <div className="container">
-                <h1 className=" text-center font-jakarata font-semibold  md:text-5xl text-4xl  text-black capitalize">What we do</h1>
+                <h1 className=" text-center font-jakarata font-semibold  md:text-5xl text-4xxl  text-black capitalize">What we do</h1>
                 <div className="row mt-8 max-sm:hidden">
                     <div className=" lg:w-1/3 px-3 mt-6 sm:w-1/2">
                         <div className="bg-white border border-black  border-opacity-15 rounded-3xl p-6 shadow-weDo hover:border-white ease-in-out duration-300 min-h-[100%]">
@@ -92,11 +92,11 @@ const WhatWeDo = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' max-sm:block hidden'>
+                <div className='max-sm:block hidden pt-8'>
                     <WhatWeDoSlider />
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 
