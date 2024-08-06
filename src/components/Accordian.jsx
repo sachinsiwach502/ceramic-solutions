@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { AccordianImg } from './icon'
-
+import {accordionItems} from './Helpder'
+ 
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
     return (
-        <div className="w-full">
+        <div className="w-full shadow-accordian">
             <button
-                className="w-full text-left p-4 flex justify-between items-center mt-6 shadow-accordian rounded-lg font-jakarata"
+                className="w-full text-left p-4 flex justify-between items-center mt-6  rounded-2xl font-jakarata"
                 onClick={onClick}
             >
                 <span className="text-lg font-medium font-jakarata">{title}</span>
@@ -65,34 +66,11 @@ Accordion.propTypes = {
     ).isRequired,
 };
 
-// Default props to avoid undefined errors
 Accordion.defaultProps = {
     items: [],
 };
 
 
-// Usage Example
-const accordionItems = [
-    {
-        title: 'Lörem ipsum koda astrobel: sutaveligen.',
-        content: 'Content for the first accordion item.',
-    },
-    {
-        title: 'Rodod bänera viliga',
-        content: 'Content for the second accordion item.',
-    },
-    {
-        title: 'Pregigt primasofi dede facebooka: förutom',
-        content: 'Content for the third accordion item.',
-    }, {
-        title: 'Ipsum koda astrobel: sutaveligen. Rodod bänera viliga.',
-        content: 'Content for the fourth accordion item.',
-    },
-    {
-        title: 'Rodod bänera viliga. Pregigt primasofi dede facebooka',
-        content: 'Content for the fifth accordion item.',
-    },
-];
 
 const App = () => (
     <Accordion items={accordionItems} />

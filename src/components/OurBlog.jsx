@@ -1,12 +1,11 @@
-import ourBlog from '../assets/images/png/our-blog.png'
-import linkArrow from '../assets/images/png/red-link-arrow.png'
+
 import OurBlogSlider from './OurBlogSlider';
 import { OurBlogData } from './Helpder'
 
 const OurBlog = () => {
     return (
         <div className="container lg:pt-[140px] md:pt-20 pt-16">
-            <h1 className=" text-center font-semibold  md:text-5xl text-4xxl  text-black capitalize">Our Blog</h1>
+            <h1 className="text-center font-semibold  md:text-5xl text-4xxl  text-black capitalize">Our Blog</h1>
             <p className="text-lg text-black-100 max-w-[592px] text-center pt-5 mx-auto">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade</p>
             <div className="row max-sm:hidden">
 

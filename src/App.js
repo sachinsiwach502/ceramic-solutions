@@ -9,6 +9,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import Footer from './components/Footer';
 import Customers from './components/Customers';
 import Services from './components/Services';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Faq />
       <Services />
       <Footer />
+      <ScrollToTop />
     </>
   );
 }

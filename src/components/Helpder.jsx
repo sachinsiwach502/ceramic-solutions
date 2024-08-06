@@ -90,4 +90,26 @@ export const OurBlogData = [
         link: "Learn more",
         linkarrow: linkArrow
     }
-]
+];
+
+export const accordionItems = [
+    {
+        title: 'Lörem ipsum koda astrobel: sutaveligen.',
+        content: 'Content for the first accordion item.',
+    },
+    {
+        title: 'Rodod bänera viliga',
+        content: 'Content for the second accordion item.',
+    },
+    {
+        title: 'Pregigt primasofi dede facebooka: förutom',
+        content: 'Content for the third accordion item.',
+    }, {
+        title: 'Ipsum koda astrobel: sutaveligen. Rodod bänera viliga.',
+        content: 'Content for the fourth accordion item.',
+    },
+    {
+        title: 'Rodod bänera viliga. Pregigt primasofi dede facebooka',
+        content: 'Content for the fifth accordion item.',
+    },
+];
