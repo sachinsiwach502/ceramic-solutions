@@ -20,7 +20,7 @@ const NavLinks = () => {
             <div className="container bg-white rounded-3xl min-h-[84px] mt-4">
                 <div className=" flex  items-center justify-between p-4">
                     <a href="#" className='w-[106px] h-[52px]'>
-                        <img src={navLogo} alt="nav logo" className=' w-full h-full' />
+                        <img src={navLogo} alt="nav logo" className=' w-full h-full pointer-events-none' />
                     </a>
                     <ul className={`${nav ? "max-lg:left-0" : "max-lg:left-[-100%]"} flex items-center md:gap-7 sm:gap-5 gap-4 max-lg:flex-col max-lg:bg-white max-lg:justify-center max-lg:items-center max-lg:fixed max-lg:min-h-screen max-lg:w-full max-lg:h-full z-20 max-lg:top-0 ease-in-out duration-300`}>
                         <li>

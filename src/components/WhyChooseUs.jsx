@@ -39,7 +39,7 @@ const WhyChooseUs = () => {
                         <div className=' relative flex justify-end'>
                             <div className='max-w-[469px] h-[523px] relative z-30'> <img src={whyChooseUs} alt="bed room" className='w-full h-full' /></div>
                             <div className='absolute max-w-[300px] h-[396px] translate-x-6 top-[35%] -left-[4%] z-20 max-lg:hidden'>
-                                <img src={redBox} alt="red box" className='w-full h-full' />
+                                <img src={redBox} alt="red box" className='w-full h-full pointer-events-none' />
                             </div>
                         </div>
                     </div>

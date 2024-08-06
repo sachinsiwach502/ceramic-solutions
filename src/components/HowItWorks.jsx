@@ -12,7 +12,7 @@ const HowItWorks = () => {
                     <div className=' relative'>
                         <div className='max-w-[496px] h-[523px] relative z-30'> <img src={howItWorks} alt="bed room" className='w-full h-full' /></div>
                         <div className='absolute max-w-[300px] h-[396px] translate-x-6 top-[40%] -left-[20%] z-20 max-lg:hidden'>
-                            <img src={redBox} alt="red box" className='w-full h-full' />
+                            <img src={redBox} alt="red box" className='w-full h-full pointer-events-none' />
                         </div>
                     </div>
                 </div>
