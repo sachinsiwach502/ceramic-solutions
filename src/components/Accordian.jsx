@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { AccordianImg } from './icon'
-import { accordionItems } from './Helpder'
+import { accordionItems } from './Helper'
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
     return (

@@ -1,6 +1,6 @@
 
 import OurBlogSlider from './OurBlogSlider';
-import { OurBlogData } from './Helpder'
+import { OurBlogData } from './Helper'
 
 const OurBlog = () => {
     return (

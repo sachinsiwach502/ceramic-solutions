@@ -1,5 +1,5 @@
 import React from 'react'
-import { ServicesData } from './Helpder'
+import { ServicesData } from './Helper'
 
 const Services = () => {
     return (
