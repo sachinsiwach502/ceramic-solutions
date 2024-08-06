@@ -10,8 +10,7 @@ const Footer = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='xl:w-3/12 px-3'>
-                        <div className=' max-w-[175px]'><img src={logo} alt="logo" /></div>
-
+                        <div className='max-w-[175px] pointer-events-none'><img src={logo} alt="logo" /></div>
                         <a href="mailto:@gmail.com" className='flex gap-2 mt-5 items-center'>
                             <img src={mialLogo} alt="mail logo" className='size-6' />
                             <p className='text-black hover:text-red ease-in-out duration-300'>help@Dealzip.com</p>
@@ -21,16 +20,16 @@ const Footer = () => {
                             <p className='text-black hover:text-red ease-in-out duration-300'>+1 234 456 678 89</p>
                         </a>
                         <div className='flex gap-2 lg:mt-6 mt-3'>
-                            <a href="/" className='hover:scale-105 ease-in-out duration-300'>
+                            <a href="https://www.facebook.com/login/" target='_blank' className='hover:scale-105 ease-in-out duration-300'>
                                 <FacebookLogo />
                             </a>
-                            <a href="/" className='hover:scale-105 ease-in-out duration-300'>
+                            <a href="https://www.instagram.com/accounts/login/?hl=en" target='_blank' className='hover:scale-105 ease-in-out duration-300'>
                                 <InstagramLogo />
                             </a>
-                            <a href="/" className='hover:scale-105 ease-in-out duration-300'>
+                            <a href="https://twitter.com/login" target='_blank' className='hover:scale-105 ease-in-out duration-300'>
                                 <TwitterLogo />
                             </a>
-                            <a href="/" className='hover:scale-105 ease-in-out duration-300'>
+                            <a href="https://twitter.com/login" target='_blank' className='hover:scale-105 ease-in-out duration-300'>
                                 <LinkedinLogo />
                             </a>
                         </div>
