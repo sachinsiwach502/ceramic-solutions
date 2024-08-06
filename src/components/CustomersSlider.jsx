@@ -20,9 +20,10 @@ export default function App() {
                 centeredSlides={true}
                 loop={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 2000,
                     disableOnInteraction: false,
                 }}
+                speed={1000}
                 pagination={{
                     clickable: true,
                 }}

@@ -57,6 +57,10 @@
     display: flex !important;
 }
 
+.customer-slider .swiper {
+    padding-top: 30px;
+}
+
 @media (min-width:992px) {
     .customer-slider .swiper {
         padding-top: 96px;
@@ -67,8 +71,4 @@
     .customer-slider .swiper {
         padding-top: 60px;
     }
-}
-
-.customer-slider .swiper {
-    padding-top: 30px;
 }

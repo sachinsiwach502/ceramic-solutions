@@ -16,7 +16,7 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => {
                 </span>
             </button>
             {isOpen && (
-                <div className="p-4 bg-white">
+                <div className="p-4 bg-white transform transition-transform duration-300">
                     {content}
                 </div>
             )}
