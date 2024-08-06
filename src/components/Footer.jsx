@@ -94,9 +94,11 @@ const Footer = () => {
                                         <h3 className='capitalize font-jakarata text-black-300 text-3xl font-semibold lg:pb-2'>product</h3>
                                     </li>
                                     <li className='lg:pt-3 pt-1'>    <a href="/" className='capitalize font-jakarata text-black-300 hover:text-red ease-in-out duration-300'>Stay up to date</a></li>
-                                    <li className='border border-light_gry p-[10px] rounded-[62px] flex items-center w-full justify-between mt-3'>
-                                        <input type="email" placeholder='Your email' className='text-grey font-jakarata outline-none pr-2' />
-                                        <button className=" bg-red w-[160px] h-[55px] text-white rounded-[56px] font-jakarata font-semibold hover:bg-rose-500 ease-linear duration-300">Subscribe</button>
+                                    <li className='mt-3'>
+                                        <form action="" className='border border-light_gry p-[10px] rounded-[62px] flex items-center w-full justify-between'>
+                                            <input type="email" placeholder='Your email' className='text-grey font-jakarata outline-none pr-2' required />
+                                            <button className="bg-red w-[160px] h-[55px] text-white rounded-[56px] font-jakarata font-semibold hover:bg-rose-500 ease-linear duration-300">Subscribe</button>
+                                        </form>
                                     </li>
                                 </ul>
                             </div>
