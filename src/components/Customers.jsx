@@ -37,7 +37,7 @@ const Customers = () => {
                     </div>
                 </div>
             </div>
-            <div className='mt-14 customer-slider'> <CustomersSlider /></div>
+            <div className='customer-slider'> <CustomersSlider /></div>
         </div>
     )
 }

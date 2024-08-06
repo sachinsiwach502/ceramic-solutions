@@ -48,6 +48,10 @@
     display: none;
 }
 
+.customer-slider .swiper {
+    padding-top: 96px;
+}
+
 .swiper {
     padding-bottom: 44px !important;
 }
