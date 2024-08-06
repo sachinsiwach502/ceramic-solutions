@@ -5,6 +5,7 @@ import phoneCall from '../assets/images/png/phn-call-img.png'
 import { FacebookLogo, InstagramLogo, LinkedinLogo, TwitterLogo } from './icon'
 
 const Footer = () => {
+    let year = new Date()
     return (
         <>
             <div className='container'>
@@ -106,8 +107,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='w-full h-[2px] mt-11' style={{ background: 'linear-gradient(90deg, rgba(22, 22, 22, 0) 0%, #696969 51.56%, rgba(22, 22, 22, 0) 100%)' }}></div>
-            <p className='text-center text-black-300 py-4 font-jakarata px-6'>Copyright 2024 ceramicsolutions.com all rights reserved</p>
-
+            <p className='text-center text-black-300 py-4 font-jakarata px-6'>Copyright {year.getFullYear} ceramicsolutions.com all rights reserved</p>
         </>
     )
 }
