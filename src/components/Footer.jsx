@@ -55,23 +55,23 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className='lg:w-3/12 sm:w-1/3 w-2/6 px-3'>
+                            <div className='lg:w-3/12 sm:w-1/3 w-2/6 sm:px-3 pr-3'>
                                 <ul>
                                     <li>
                                         <h3 className='capitalize text-black-300 text-3xl font-semibold lg:pb-2'>legal</h3>
                                     </li>
                                     <li className='pt-3'>
-                                        <a href="/" className='capitalize text-black-300 hover:text-red ease-in-out duration-300'>terms of use</a>
+                                        <a href="/" className='capitalize text-black-300 hover:text-red ease-in-out duration-300 text-nowrap'>terms of use</a>
                                     </li>
                                     <li className='pt-3'>
-                                        <a href="/" className='capitalize text-black-300 hover:text-red ease-in-out duration-300'>privacy policy</a>
+                                        <a href="/" className='capitalize text-black-300 hover:text-red ease-in-out duration-300 text-nowrap'>privacy policy</a>
                                     </li>
                                     <li className='pt-3'>
-                                        <a href="/" className='capitalize text-black-300 hover:text-red ease-in-out duration-300'>cookie policy</a>
+                                        <a href="/" className='capitalize text-black-300 hover:text-red ease-in-out duration-300 text-nowrap'>cookie policy</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div className='lg:w-2/12 sm:w-1/3 w-2/6 px-3'>
+                            <div className='lg:w-2/12 sm:w-1/3 w-2/6 px-3 flex max-sm:justify-end'>
                                 <ul>
                                     <li>
                                         <h3 className='capitalize text-black-300 text-3xl font-semibold lg:pb-2'>product</h3>
