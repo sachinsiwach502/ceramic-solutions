@@ -51,9 +51,9 @@ const NavLinks = () => {
                         <p className='font-bold text-xlg'>(865) 621-1717</p>
                     </button>
                     <div className='w-9 h-8 justify-between flex-col max-lg:flex hidden relative z-30 right-0 bg-red rounded-md p-[6px]' onClick={handleNavChange}>
-                        <span className={`w-full bg-white h-1 ease-in-out duration-300 rounded ${nav ? "rotate-45 absolute right-[20%] top-[42%] w-[24px]" : ""}`}></span>
+                        <span className={`w-full bg-white h-1 ease-in-out duration-300 rounded ${nav ? "rotate-45 absolute right-[20%] top-[42%] !w-[24px]" : ""}`}></span>
                         <span className={`w-full bg-white h-1 ease-in-out duration-300 rounded ${nav ? "hidden" : ""}`}></span>
-                        <span className={`w-full bg-white h-1 ease-in-out duration-300 rounded ${nav ? "-rotate-45 bottom-3 absolute w-[24px] top-[40%] right-[20%]" : ""}`}></span>
+                        <span className={`w-full bg-white h-1 ease-in-out duration-300 rounded ${nav ? "-rotate-45 bottom-3 absolute !w-[24px] top-[40%] right-[20%]" : ""}`}></span>
                     </div>
                 </div>
             </div>
