@@ -41,11 +41,11 @@ export default function App() {
                         slidesPerView: 4,
                     },
                 }}
-                modules={[Pagination, Autoplay]}
+                modules={[Pagination,]}
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6'>
+                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6 w-full xl:h-[305]'>
                         <div className='flex itmes-center gap-2'>
                             <div className='size-10'>  <img src={sliderProfile01} alt="first slider profile pic" /></div>
                             <div className='flex flex-col itmes-start'>
@@ -60,7 +60,7 @@ export default function App() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6'>
+                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6 w-full xl:h-[305]'>
                         <div className='flex itmes-center gap-2'>
                             <div className='size-10'>  <img src={sliderProfile02} alt="second slider profile pic" /></div>
                             <div className='flex flex-col itmes-start'>
@@ -75,7 +75,7 @@ export default function App() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6'>
+                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6 w-full xl:h-[305]'>
                         <div className='flex itmes-center gap-2'>
                             <div className='size-10'>  <img src={sliderProfile03} alt="first slider profile pic" /></div>
                             <div className='flex flex-col itmes-start'>
@@ -90,7 +90,7 @@ export default function App() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6'>
+                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6 w-full xl:h-[305]'>
                         <div className='flex itmes-center gap-2'>
                             <div className='size-10'>  <img src={sliderProfile04} alt="first slider profile pic" /></div>
                             <div className='flex flex-col itmes-start'>
@@ -105,7 +105,7 @@ export default function App() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6'>
+                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6 w-full xl:h-[305]'>
                         <div className='flex itmes-center gap-2'>
                             <div className='size-10'>  <img src={sliderProfile01} alt="first slider profile pic" /></div>
                             <div className='flex flex-col itmes-start'>
@@ -120,7 +120,7 @@ export default function App() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6'>
+                    <div className='rounded-3xl shadow-slider max-w-[364px] bg-white p-6 w-full xl:h-[305]'>
                         <div className='flex itmes-center gap-2'>
                             <div className='size-10'>  <img src={sliderProfile02} alt="second slider profile pic" /></div>
                             <div className='flex flex-col itmes-start'>

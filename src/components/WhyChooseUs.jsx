@@ -33,10 +33,10 @@ const WhyChooseUs = () => {
                                 <p className="text-black max-md:text-sm pt-3 max-w-[370px]">Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird.</p>
                             </div>
                         </div>
-                        <button className=" bg-red text-xlg max-w-[173px] w-full h-[63px] text-white rounded-[56px] font-bold mt-9 hover:bg-rose-400 ease-linear duration-100">Get a Quote</button>
+                        <button className="bg-red text-xlg max-w-[173px] w-full h-[63px] text-white rounded-[56px] font-bold mt-9 border-transparent border hover:border-red hover:bg-black ease-in-out duration-300">Get a Quote</button>
                     </div>
-                    <div className=' lg:w-1/2 px-3'>
-                        <div className=' relative flex justify-end'>
+                    <div className='lg:w-1/2 px-3'>
+                        <div className=' relative flex lg:justify-end justify-center'>
                             <div className='max-w-[469px] h-[523px] relative z-30'> <img src={whyChooseUs} alt="bed room" className='w-full h-full' /></div>
                             <div className='absolute max-w-[300px] h-[396px] translate-x-6 top-[35%] -left-[4%] z-20 max-lg:hidden'>
                                 <img src={redBox} alt="red box" className='w-full h-full pointer-events-none' />

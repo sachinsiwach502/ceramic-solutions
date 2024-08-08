@@ -30,7 +30,7 @@ const ScrollToTop = () => {
             {isVisible && (
                 <button
                     onClick={scrollToTop}
-                    className="bg-red text-white p-2 rounded-full shadow-lg hover:bg-rose-500 ease-linear duration-300 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-opacity-50 border-2 border-red"
+                    className="bg-red size-7 text-lg flex items-center justify-center text-white rounded-full shadow-lg hover:bg-rose-500 ease-linear duration-300 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-opacity-50 border-2 border-red"
                 >
                     ↑
                 </button>

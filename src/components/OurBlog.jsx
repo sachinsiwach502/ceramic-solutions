@@ -13,14 +13,14 @@ const OurBlog = () => {
                     {OurBlogData.map((obj, index) => (
                         <div
                             key={index}
-                            className='bg-white border border-black border-opacity-15 rounded-3xl p-6 shadow-weDo hover:border-white ease-in-out duration-300 min-h-[100%]'
+                            className='bg-white rounded-3xl p-6 shadow-weDo ease-in-out duration-300 min-h-[100%]'
                         >
                             <div className='overflow-hidden rounded-xl'>
                                 <img src={obj.image} alt="blog random images" className='hover:scale-105 ease-in-out duration-300' />
                             </div>
                             <h3 className='text-black font-semibold text-4xl pt-6 max-w-[316px]'>{obj.text}</h3>
-                            <a href="/" className='flex items-center gap-[10px] pt-6 group/edit'>
-                                <h1 className='text-red font-semibold text-base hover:underline ease-in-out duration-500'>{obj.link}</h1>
+                            <a href="/" className='flex items-center gap-[10px] pt-6 group/edit w-fit'>
+                                <h1 className='text-red font-semibold text-base ease-in-out duration-500'>{obj.link}</h1>
                                 <div className='w-6 group-hover/edit:translate-x-1 ease-in-out duration-500'>
                                     <img src={obj.linkarrow} alt="link arrow" />
                                 </div>
@@ -33,14 +33,14 @@ const OurBlog = () => {
                     {OurBlogData.map((obj, index) => (
                         <div
                             key={index}
-                            className='bg-white border border-black border-opacity-15 rounded-3xl p-6 shadow-weDo hover:border-white ease-in-out duration-300 min-h-[100%]'
+                            className='bg-white rounded-3xl p-6 shadow-weDo hover:border-white ease-in-out duration-300 min-h-[100%]'
                         >
                             <div className='overflow-hidden rounded-xl'>
                                 <img src={obj.image} alt="blog random images" className='hover:scale-105 ease-in-out duration-300' />
                             </div>
                             <h3 className='text-black font-semibold text-4xl pt-6 max-w-[316px]'>{obj.text}</h3>
-                            <a href="/" className='flex items-center gap-[10px] pt-6 group/edit'>
-                                <h1 className='text-red font-semibold text-base hover:underline ease-in-out duration-500'>{obj.link}</h1>
+                            <a href="/" className='flex items-center gap-[10px] pt-6 group/edit w-fit'>
+                                <h1 className='text-red font-semibold text-base ease-in-out duration-500'>{obj.link}</h1>
                                 <div className='w-6 group-hover/edit:translate-x-1 ease-in-out duration-500'>
                                     <img src={obj.linkarrow} alt="link arrow" />
                                 </div>
@@ -53,14 +53,14 @@ const OurBlog = () => {
                     {OurBlogData.map((obj, index) => (
                         <div
                             key={index}
-                            className='bg-white border border-black border-opacity-15 rounded-3xl p-6 shadow-weDo hover:border-white ease-in-out duration-300 min-h-[100%]'
+                            className='bg-white rounded-3xl p-6 shadow-weDo hover:border-white ease-in-out duration-300 min-h-[100%]'
                         >
                             <div className='overflow-hidden rounded-xl'>
                                 <img src={obj.image} alt="blog random images" className='hover:scale-105 ease-in-out duration-300' />
                             </div>
                             <h3 className='text-black font-semibold text-4xl pt-6 max-w-[316px]'>{obj.text}</h3>
-                            <a href="/" className='flex items-center gap-[10px] pt-6 group/edit'>
-                                <h1 className='text-red font-semibold text-base hover:underline ease-in-out duration-500'>{obj.link}</h1>
+                            <a href="/" className='flex items-center gap-[10px] pt-6 group/edit w-fit'>
+                                <h1 className='text-red font-semibold text-base ease-in-out duration-500'>{obj.link}</h1>
                                 <div className='w-6 group-hover/edit:translate-x-1 ease-in-out duration-500'>
                                     <img src={obj.linkarrow} alt="link arrow" />
                                 </div>

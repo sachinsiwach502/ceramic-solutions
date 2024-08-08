@@ -17,8 +17,8 @@ const NavLinks = () => {
     const body = document.body;
     return (
         <nav className='px-3'>
-            <div className="container bg-white rounded-3xl min-h-[84px] mt-4">
-                <div className=" flex  items-center justify-between p-4">
+            <div className="max-w-[1140px] mx-auto bg-white rounded-3xl  mt-4 w-full !px-0">
+                <div className="flex items-center justify-between p-4 max-h-[84px]">
                     <a href="#" className='w-[106px] h-[52px]'>
                         <img src={navLogo} alt="nav logo" className=' w-full h-full pointer-events-none' />
                     </a>
@@ -41,12 +41,12 @@ const NavLinks = () => {
                         <li>
                             <a href="#request" className='font-normal text-base text-black hover:text-red ease-in-out duration-300'>Request a Qoute</a>
                         </li>
-                        <button className=" bg-red  text-white rounded-[56px]  items-center gap-[10px] pt-4 pr-5 pb-4 pl-5 max-lg:flex hidden hover:bg-rose-500 ease-in-out duration-300">
+                        <button className="bg-red  text-white rounded-[56px]  items-center gap-[10px] pt-4 pr-5 pb-4 pl-5 max-lg:flex hidden border-transparent border hover:border-red hover:bg-black ease-in-out duration-300">
                             <div className='w-6 h-6'> <img src={phnCall} alt="phn call" className='w-full h-full' /></div>
                             <p className='font-bold text-xlg'>(865) 621-1717</p>
                         </button>
                     </ul>
-                    <button className=" bg-red  text-white rounded-[56px] lg:flex hidden items-center gap-[10px] pt-4 pr-5 pb-4 pl-5 hover:bg-rose-500 ease-in-out duration-300">
+                    <button className="bg-red  text-white rounded-[56px] lg:flex hidden items-center gap-[10px] pt-4 pr-5 pb-4 pl-5 ease-in-out duration-300 border-transparent hover:border-white hover:bg-black">
                         <div className='w-6 h-6'> <img src={phnCall} alt="phn call" className='w-full h-full' /></div>
                         <p className='font-bold text-xlg'>(865) 621-1717</p>
                     </button>

@@ -1,13 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { AccordianImg } from './icon'
-import { accordionItems } from './Helper'
+import { AccordianImg } from './icon';
+import { accordionItems } from './Helper';
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
+    const contentRef = useRef(null);
+    const [maxHeight, setMaxHeight] = useState('0px');
+
+    useEffect(() => {
+        setMaxHeight(isOpen ? `${contentRef.current.scrollHeight}px` : '0px');
+    }, [isOpen]);
+
     return (
         <div className="w-full shadow-accordian">
             <button
-                className="w-full text-left p-4 flex justify-between items-center mt-6  rounded-2xl font-jakarata"
+                className="w-full text-left p-4 flex justify-between items-center mt-6 rounded-2xl font-jakarata"
                 onClick={onClick}
             >
                 <span className="text-lg font-medium font-jakarata">{title}</span>
@@ -15,11 +22,15 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => {
                     <AccordianImg />
                 </span>
             </button>
-            {isOpen && (
-                <div className="p-4 bg-white transform transition-transform duration-300">
+            <div
+                ref={contentRef}
+                style={{ maxHeight }}
+                className={`transition-max-height duration-300 ease-in-out overflow-hidden`}
+            >
+                <div className="p-4 bg-white">
                     {content}
                 </div>
-            )}
+            </div>
         </div>
     );
 };
@@ -69,8 +80,6 @@ Accordion.propTypes = {
 Accordion.defaultProps = {
     items: [],
 };
-
-
 
 const App = () => (
     <Accordion items={accordionItems} />
